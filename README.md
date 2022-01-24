@@ -1,6 +1,4 @@
-# srocket
-S-ROCKET: SELECTIVE RANDOM CONVOLUTION KERNELS FOR TIME SERIES CLASSIFICATION
+# S-Rocket
+S-Rocket: Selective Random Convolution Kernels for Time Series Classification
 
-By Hojjat Salehinejad and Shahrokh Valaee
-
-This repo contains codes for the above paper. The codes will be released after acceptance of the paper, submitted to IEEE ICASSP 2022.
+This repo contains codes for the above paper. 
