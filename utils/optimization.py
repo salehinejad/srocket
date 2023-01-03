@@ -16,7 +16,7 @@ def evolution(S,F_thr,crossover_rate):
     mask = np.logical_and(F,np.logical_or(population[:,parents[:,1]], population[:,parents[:,2]]))
     ev = (1-population[:,parents[:,0]])*mask + population[:,parents[:,0]]*np.logical_not(mask)
 
-    crossover_rate = crossover_rate                # Recombination rate [0,1] - larger more diverisyt
+    crossover_rate = crossover_rate                # Recombination rate [0,1] - larger more diveristy
     cr = (np.random.rand(D,NS)<crossover_rate)
     mut_keep = ev*cr
     pop_keep = population*np.logical_not(cr)
